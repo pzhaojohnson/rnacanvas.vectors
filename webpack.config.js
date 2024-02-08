@@ -23,5 +23,6 @@ module.exports = {
       name: 'vectors',
       type: 'umd',
     },
+    clean: true,
   },
 };
