@@ -1,6 +1,6 @@
 {
   "name": "@rnacanvas/vectors",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Operations on 2D vectors",
   "main": "./dist/index.js",
   "scripts": {
