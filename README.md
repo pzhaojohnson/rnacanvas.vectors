@@ -26,3 +26,18 @@ type Vector = {
   y: number,
 };
 ```
+
+## `calculate()`
+
+Creates and returns a new vector object
+with the specified magnitude and direction.
+
+```javascript
+calculate(Math.sqrt(2), Math.PI / 4); // { x: 1, y: 1 }
+calculate(5, -Math.PI / 2); // { x: 0, y: -5 }
+calculate(-10, Math.PI); // { x: 10, y: 0 }
+```
+
+## `calculateVector()`
+
+An alias for the `calculate()` function.
