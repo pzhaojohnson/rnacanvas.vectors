@@ -27,6 +27,26 @@ type Vector = {
 };
 ```
 
+## `magnitude()`
+
+Calculates the magnitude of a vector.
+
+```javascript
+magnitude({ x: 3, y: 4 }); // 5
+magnitude({ x: 12, y: 5 }); // 13
+```
+
+## `direction()`
+
+Calculates the direction of a vector
+(in the standard Cartesian coordinate system).
+
+```javascript
+direction({ x: 10, y: 0 }); // 0
+direction({ x: 1, y: 1 }); // Math.PI / 4
+direction({ x: -1, y: -1 }); // -3 * Math.PI / 4
+```
+
 ## `calculate()`
 
 Creates and returns a new vector object
