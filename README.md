@@ -22,7 +22,7 @@ Type definition for a two-dimensional vector.
 
 ```typescript
 type Vector = {
-  x: number;
-  y: number;
+  x: number,
+  y: number,
 };
 ```
